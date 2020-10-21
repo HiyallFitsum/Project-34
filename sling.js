@@ -1,4 +1,4 @@
-class sling {
+class Sling {
     constructor(bodyA, pointB){
         var options={
         bodyA: bodyA,
@@ -17,13 +17,13 @@ class sling {
 
     display(){
         if (this.sling.bodyA) {
-            var pointA = this.rope.bodyA.position;
+            var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
             push();
             strokeWeight(3.5);
             stroke("#fff");
             line(pointB.x, pointB.y, pointA.x, pointA.y);
             pop();
-          }
+         }
     }
 }

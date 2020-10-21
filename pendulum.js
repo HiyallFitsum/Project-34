@@ -8,7 +8,7 @@ slop: 1,
 inertia: Infinity
 }
 
-this.body = Bodies.rectangle(x,y,40,40,options);
+this.body = Bodies.rectangle(x,y,30,30,color,options);
 this.x = x;
 this.y = y;
 this.color = color,
